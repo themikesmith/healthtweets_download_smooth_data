@@ -1,0 +1,3 @@
+example command:
+
+python healthtweet_download.py -1 -1 && python pad_zeroes.py *ht.csv && python pad_replace_zeros_with_avg.py public_panda_series_dates_downtime_5min.pkl *ht_pad.csv
